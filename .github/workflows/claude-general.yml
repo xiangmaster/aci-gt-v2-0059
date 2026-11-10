@@ -226,3 +226,5 @@ jobs:
         track_progress: false
 
     environment: gt-review
+env:
+  ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
